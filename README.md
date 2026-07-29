@@ -149,7 +149,7 @@ Hệ thống được xây dựng theo **mô hình 3 lớp**, mỗi chức năng
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/tranthingocanh12a7-creator/Website-QuanLySieuThiDienMay.git
+git clone https://github.com/tranthingocanh12a7-creator/HeThong-QuanLy-SieuThi-DienMay.git
 
 # 2. Import database
 # Vào MySQL, tạo database mới và import file sieuthidienmay.sql trong thư mục Database/
