@@ -69,21 +69,25 @@ Dự án xây dựng một phần mềm quản lý giúp:
 
 ## 🧑‍💻 Vai trò của tôi: Developer & Manual Tester
 
-Trong dự án này, tôi tham gia với vai trò kép **Developer** kiêm **Manual Tester** cho module `<Tên module bạn phụ trách, VD: Quản lý bán hàng>`, cụ thể:
+Trong dự án này, tôi tham gia với vai trò kép **Developer** kiêm **Manual Tester** cho module "Quản lý sản phẩm".
 
-**Với vai trò Developer:**
-- Phát triển giao diện WinForms và xử lý nghiệp vụ cho module `<...>`
-- Viết logic kết nối và truy vấn dữ liệu với MySQL theo mô hình 3 lớp
+### Công việc thực hiện
 
-**Với vai trò Manual Tester:**
-- Tự kiểm thử thủ công (manual testing) toàn bộ luồng nghiệp vụ trước khi bàn giao cho nhóm, theo các kỹ thuật:
-  - **Functional Testing** — kiểm tra từng chức năng (thêm/sửa/xóa/tìm kiếm) hoạt động đúng yêu cầu
-  - **Boundary Testing** — kiểm tra các trường hợp biên như tồn kho = 0, xuất vượt số lượng, chấm công trùng ca
-  - **Negative Testing** — thử nhập sai định dạng, để trống trường bắt buộc, sai tài khoản/mật khẩu để kiểm tra xử lý lỗi
-  - **End-to-end Testing** — kiểm tra xuyên suốt luồng nghiệp vụ, ví dụ: tạo hóa đơn → trừ tồn kho → cập nhật doanh thu thống kê
-- Đối chiếu dữ liệu trước và sau thao tác trực tiếp trên MySQL Workbench để xác nhận hệ thống ghi/cập nhật đúng bảng dữ liệu
-- Phát hiện và phản hồi lại nhóm các trường hợp lỗi phát sinh (VD: cho phép xuất kho âm, chấm công trùng không bị chặn) để chỉnh sửa trước khi hoàn thiện
+#### Phát triển
+- Phân tích yêu cầu và thiết kế chức năng **Quản lý sản phẩm**.
+- Xây dựng giao diện quản lý sản phẩm bằng C# WinForms (hoặc Java JSP/Servlet nếu là dự án web).
+- Phát triển các chức năng **Thêm, Sửa, Xóa, Tìm kiếm và Hiển thị danh sách sản phẩm**.
+- Kết nối cơ sở dữ liệu MySQL và xử lý các thao tác CRUD đối với dữ liệu sản phẩm.
+- Kiểm tra và sửa lỗi trong quá trình phát triển module.
 
+#### Kiểm thử
+Trong quá trình phát triển dự án, nhóm thực hiện kiểm thử thủ công (Manual Testing) cho các chức năng nhằm đảm bảo hệ thống hoạt động đúng theo yêu cầu. Quá trình kiểm thử bao gồm:
+
+- Kiểm thử chức năng (Functional Testing) cho module Quản lý sản phẩm.
+- Kiểm tra các thao tác Thêm, Sửa, Xóa, Tìm kiếm sản phẩm.
+- Kiểm tra tính hợp lệ của dữ liệu đầu vào (Input Validation).
+- Kiểm tra dữ liệu trên cơ sở dữ liệu MySQL sau mỗi thao tác.
+- Ghi nhận và khắc phục lỗi phát sinh trong quá trình phát triển.
 > *Vì đây là đồ án học tập nên nhóm thực hiện kiểm thử thủ công theo từng chức năng trong quá trình phát triển, chưa xây dựng bộ test case chính thức hay áp dụng kiểm thử tự động (automation testing).*
 
 ---
@@ -115,24 +119,7 @@ Thống kê doanh thu, lương nhân viên, lợi nhuận theo khoảng thời g
 <img width="700" alt="Thống kê và báo cáo" src="https://github.com/user-attachments/assets/3fbaa5a3-7014-4a78-8dbe-9ead5fe2161a" />
 
 ---
-## Vai trò
 
-**Developer & Manual Tester**
-
-### Công việc thực hiện
-
-#### Phát triển hệ thống
-- Phân tích yêu cầu và thiết kế cơ sở dữ liệu.
-- Xây dựng giao diện người dùng bằng C# WinForms (hoặc Java JSP/Servlet nếu là project web).
-- Phát triển các chức năng: Đăng nhập, Quản lý sản phẩm, Quản lý khách hàng, Giỏ hàng, Đơn hàng, Thanh toán và Hóa đơn.
-- Xử lý các thao tác CRUD và kết nối cơ sở dữ liệu MySQL.
-- Kiểm tra, sửa lỗi và tối ưu chức năng trong quá trình phát triển.
-
-#### Kiểm thử
-- Thiết kế và thực hiện Test Case cho các chức năng chính.
-- Thực hiện Functional Testing và kiểm tra tính đúng đắn của dữ liệu.
-- Kiểm tra dữ liệu trên MySQL sau khi thực hiện các thao tác.
-- Ghi nhận, theo dõi và kiểm thử lại (Retesting) sau khi sửa lỗi.
 ## 🛠 Công nghệ sử dụng
 
 | Thành phần | Công nghệ |
