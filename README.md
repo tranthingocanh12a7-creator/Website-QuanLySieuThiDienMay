@@ -87,8 +87,7 @@ Trong quá trình phát triển dự án, nhóm thực hiện kiểm thử thủ
 - Kiểm tra các thao tác Thêm, Sửa, Xóa, Tìm kiếm sản phẩm.
 - Kiểm tra tính hợp lệ của dữ liệu đầu vào (Input Validation).
 - Kiểm tra dữ liệu trên cơ sở dữ liệu MySQL sau mỗi thao tác.
-- Ghi nhận và khắc phục lỗi phát sinh trong quá trình phát triển.
-> *Vì đây là đồ án học tập nên nhóm thực hiện kiểm thử thủ công theo từng chức năng trong quá trình phát triển, chưa xây dựng bộ test case chính thức hay áp dụng kiểm thử tự động (automation testing).*
+- Ghi nhận và khắc phục lỗi phát sinh trong quá trình phát triển
 
 ---
 
